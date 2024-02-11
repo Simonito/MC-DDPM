@@ -1,0 +1,5 @@
+./data/
+
+./__pycache__/
+./diffusion/__pycache__/
+./network/__pycache__/
