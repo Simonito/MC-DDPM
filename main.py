@@ -49,8 +49,6 @@ class CustomDataset(Dataset):
         self.imgs_path = imgs_path
         self.labels_path = labels_path
         self.train_flag = train_flag
-        # file_list = natsorted(glob.glob(self.imgs_path + "*nii.gz"), key=lambda y: y.lower())
-        # label_list = natsorted(glob.glob(self.labels_path + "*nii.gz"), key=lambda y: y.lower())
         self.data = []
         self.label = []
 
